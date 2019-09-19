@@ -2,12 +2,12 @@
 
 This simple example provides
 
--   Opening of an access point with the name **ESP32_Server**
--   Under the static IP **192.168.1.1** you will than be asked to type in your **ssid** name and **wifi** psw
--   After successfull connection the the Hotspot the RGB LED on you Wroover-Kit will light up
--   Your ESP32 is now connected to WiFi (IP is not static any more)
+- Opening of an access point (AP) with the name **ESP32_Server**
+- Under the static IP **192.168.1.1** you will be asked to type in your **ssid** name and **wifi** psw
+- After successfull connection to the AP the RGB LED on you Wroover-Kit will light up
+- Your ESP32 is now connected to WiFi (IP is not static any more)
 
-Use this as a template for your projects it can be very handy in various ways ;). Please let me knwo if you have anything to improve or commit.
+Use this as a template for your projects it can be very handy in various ways ;). Please let me know if you have anything to improve or commit.
 
 Cheers
 
@@ -22,13 +22,11 @@ git clone
 cd
 ```
 
--   Set serial port under Serial Flasher Options.
+- Set serial port under Serial Flasher Options.
 
 ```
 make menuconfig
 ```
-
--   Set WiFi SSID and WiFi Password and Maximal STA connections under Example Configuration Options.
 
 ### Build and Flash
 
